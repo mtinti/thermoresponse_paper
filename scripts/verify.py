@@ -12,7 +12,7 @@ Usage:
     python scripts/verify.py proteomics CSV
         Table from 04_proteomics_de.R against
         data/proteomics/all_cellular_comparisons.csv.gz (expected: identical
-        logFC for proteins without imputed values).
+        logFC for all proteins except the 27 imputed at the detection limit).
     python scripts/verify.py figure DIR
         AUCs and out-of-fold predictions from 07_figure_roc.py against the
         published figure and expected/ (expected: identical).
@@ -97,12 +97,15 @@ def check_rnaseq(path):
 def check_proteomics(path):
     published = pd.read_csv(os.path.join(DATA, 'proteomics', 'all_cellular_comparisons.csv.gz'), index_col=0)
     rebuilt = pd.read_csv(path, index_col=0).reindex(published.index)
-    imputed = ((published['all_missing_in_one_condition'] == 1)
-               | (published['missing_in_one_or more sample'] == 1))
+    # Only the detection-limit imputation draws random numbers; every other
+    # protein, including those filled by IterativeImputer, must match.
+    random_draw = published['all_missing_in_one_condition'] == 1
+    tested = published['C34_C40_logFC'].notna()
     diff = (published['C34_C40_logFC'] - rebuilt['C34_C40_logFC']).abs()
-    failures = report(diff[~imputed].max() < 1e-9,
-                      f'C34_C40 logFC identical for {int((~imputed).sum())} proteins without imputed values')
-    print(f'     {int(imputed.sum())} proteins with imputed values: largest logFC difference {diff[imputed].max():.3f}')
+    failures = report(diff[tested & ~random_draw].max() < 1e-9,
+                      f'C34_C40 logFC identical for {int((tested & ~random_draw).sum())} proteins')
+    print(f'     {int(random_draw.sum())} proteins imputed at the detection limit (random draw): '
+          f'largest logFC difference {diff[random_draw].max():.3f}')
     return failures
 
 

@@ -18,8 +18,9 @@ Steps, applied to the DIA-NN MaxLFQ protein quantities:
 The functions are adapted from nbdev-proteomics (github.com/mtinti/nbdev-proteomics,
 commit 2ebeae76, Apache-2.0). The published table was made with an
 unseeded draw for the detection-limit values. This version fixes the seed
-and the order of conditions, so its output is the same on every run; only
-the 140 imputed proteins differ from the published table.
+and the order of conditions, so its output is the same on every run. Only
+the 27 proteins imputed at the detection limit differ from the published
+table.
 
 Usage:
     python scripts/03_proteomics_prepare.py DATA_DIR OUT_DIR
