@@ -8,6 +8,8 @@ authors:
     affiliation: University of Dundee
     orcid: "https://orcid.org/0000-0002-0051-017X"
 version: 1.0.0
+doi: 10.5281/zenodo.23638837
+date-released: 2026-10-25
 repository-code: "https://github.com/mtinti/thermoresponse_paper"
 license: MIT
 keywords:

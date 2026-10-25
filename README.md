@@ -1,5 +1,7 @@
 # Heat-shock response of *T. brucei* genes predicted from their UTRs
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23638837.svg)](https://doi.org/10.5281/zenodo.23638837)
+
 Code and data for the ROC analysis "Heat Shock Prediction Up vs Down" in
 Bravo Ruiz G, Tinti M, Horn D. *Thermo-sensing and argonaute-dependent
 transcriptome remodelling in trypanosomes*. bioRxiv (2026),
@@ -157,8 +159,18 @@ data.
 
 ## Citation
 
-If you use this code or data, cite the paper and this archive
-(see `CITATION.cff`).
+If you use this code or data, please cite the paper and this archive:
+
+- Bravo Ruiz G, Tinti M, Horn D. Thermo-sensing and argonaute-dependent
+  transcriptome remodelling in trypanosomes. bioRxiv (2026).
+  [doi:10.64898/2026.01.20.700697](https://doi.org/10.64898/2026.01.20.700697)
+- Tinti M. thermoresponse_paper: code and data to predict the heat-shock
+  response of *Trypanosoma brucei* genes from their UTRs. Zenodo.
+  [doi:10.5281/zenodo.23638837](https://doi.org/10.5281/zenodo.23638837)
+  (all versions; v1.0.0 is
+  [doi:10.5281/zenodo.23638838](https://doi.org/10.5281/zenodo.23638838))
+
+`CITATION.cff` has the same information in machine-readable form.
 
 ## License
 
