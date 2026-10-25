@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this archive."
+title: "thermoresponse_paper: code and data to predict the heat-shock response of Trypanosoma brucei genes from their UTRs"
+type: software
+authors:
+  - family-names: Tinti
+    given-names: Michele
+    affiliation: University of Dundee
+repository-code: "https://github.com/mtinti/thermoresponse_paper"
+license: MIT
+keywords:
+  - Trypanosoma brucei
+  - heat shock
+  - UTR
+  - proteomics
+  - RNA-seq
+  - HyenaDNA
+abstract: >-
+  Code, input data and a Docker environment that reproduce the ROC analysis
+  "Heat Shock Prediction Up vs Down" in the paper "Thermo-sensing and
+  argonaute-dependent transcriptome remodelling in trypanosomes".

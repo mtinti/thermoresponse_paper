@@ -1,0 +1,28 @@
+sample	genotype	temperature_c	replicate	fastq_1	fastq_2	md5_1	md5_2
+WT.34.A	wild type	34	A	WT.34.A_1.fq.gz	WT.34.A_2.fq.gz	8c26f7e7b9f3bdcc10cb49fee136a7dc	5c67d5e6e19605cf1dff46fecf1caaf0
+WT.34.B	wild type	34	B	WT.34.B_1.fq.gz	WT.34.B_2.fq.gz	3fbb3d992975fd5d318d5dcdd24c4140	497513b7e3d698324002cab83901ce43
+WT.34.C	wild type	34	C	WT.34.C_1.fq.gz	WT.34.C_2.fq.gz	35e10164ff7faf76f03aeef22a48b6d8	eb4cd040448957486b25365df028976a
+WT.37.A	wild type	37	A	WT.37.A_1.fq.gz	WT.37.A_2.fq.gz	06fd37dea3df9d2b0e597a2747ec1d76	9e4c235e6629f011b985c4e03510c74b
+WT.37.B	wild type	37	B	WT.37.B_1.fq.gz	WT.37.B_2.fq.gz	9fd0df2a0b1aef6c649ad0fba89ee1e7	3e312f8621e9aeeebc98202995293ef0
+WT.37.C	wild type	37	C	WT.37.C_1.fq.gz	WT.37.C_2.fq.gz	b42a08e219a63c913d41f1803f771fc0	af20db1d92343b8ac70985a332b621a5
+WT.40.A	wild type	40	A	WT.40.A_1.fq.gz	WT.40.A_2.fq.gz	992f3ba0297c2977b2b37dadbe836c77	68eff35b702eeb9baf76c75e8dbe9637
+WT.40.B	wild type	40	B	WT.40.B_1.fq.gz	WT.40.B_2.fq.gz	cad08988d849b849b323fec7d59a88c7	4db1bc3e49a5834930ac6a491f0953bd
+WT.40.C	wild type	40	C	WT.40.C_1.fq.gz	WT.40.C_2.fq.gz	51b1368c948faf49fa1f355e79cbd87a	10c1fb8718c853f4b64a3fc3f1ac79d2
+ago1A.34.A	ago1 null line A	34	A	ago1A.34.A_1.fq.gz	ago1A.34.A_2.fq.gz	f5b9b8680c782d59c04c502aeae042c3	c3546e350f5c55aff8a39f3b2d554747
+ago1A.34.B	ago1 null line A	34	B	ago1A.34.B_1.fq.gz	ago1A.34.B_2.fq.gz	28fea828155a624ab4ebf8b077258c30	061d9f73500b76087bbb1acbfa36f1ed
+ago1A.34.C	ago1 null line A	34	C	ago1A.34.C_1.fq.gz	ago1A.34.C_2.fq.gz	690b85547c614708e730df3d52eaad32	fb30ae81b6a1ff1d818d654fbeca6f36
+ago1A.37.A	ago1 null line A	37	A	ago1A.37.A_1.fq.gz	ago1A.37.A_2.fq.gz	b281a7a1b835a1bc269b13eb8a1068ca	1881ddeb68aba20788ac8bab626b5232
+ago1A.37.B	ago1 null line A	37	B	ago1A.37.B_1.fq.gz	ago1A.37.B_2.fq.gz	63f1e1a7d00a81f5b39d565a31793409	98835b1fe72dddbff06f28ae74da4b54
+ago1A.37.C	ago1 null line A	37	C	ago1A.37.C_1.fq.gz	ago1A.37.C_2.fq.gz	7629f9f6f62781cb84accee398f87f80	0bc153b17997bda48aa771016b967ef9
+ago1A.40.A	ago1 null line A	40	A	ago1A.40.A_1.fq.gz	ago1A.40.A_2.fq.gz	64b304aad1042ba259dffb845a01b6ce	e1b6dcb0167c09330e2a62a2fbd6c540
+ago1A.40.B	ago1 null line A	40	B	ago1A.40.B_1.fq.gz	ago1A.40.B_2.fq.gz	fac97e90ad9b34c9224846f6cc39d59f	af38666e790496fee3153b6a0f606a81
+ago1A.40.C	ago1 null line A	40	C	ago1A.40.C_1.fq.gz	ago1A.40.C_2.fq.gz	05fb6161da36faace02bf5387e2e1c1a	f69facfdc94ca0e550df7d11bf8d7b92
+ago1D.34.A	ago1 null line D	34	A	ago1D.34.A_1.fq.gz	ago1D.34.A_2.fq.gz	4a203f2644161c88c23955918a7d4214	ed7f4d157007bc968a37933d294cc5a2
+ago1D.34.B	ago1 null line D	34	B	ago1D.34.B_1.fq.gz	ago1D.34.B_2.fq.gz	a8cc5073719921c4081e9d6bd7e17572	bc77afada2a0f6e45e7dcc789c261624
+ago1D.34.C	ago1 null line D	34	C	ago1D.34.C_1.fq.gz	ago1D.34.C_2.fq.gz	7ccc564ed6b0ba9a030ceb090dcaf709	d3157d4042c5159bc1134da983468970
+ago1D.37.A	ago1 null line D	37	A	ago1D.37.A_1.fq.gz	ago1D.37.A_2.fq.gz	ced3f9ceca6669a290273e1d60c25a79	4bef21638608cf143e54d8a67cc925dc
+ago1D.37.B	ago1 null line D	37	B	ago1D.37.B_1.fq.gz	ago1D.37.B_2.fq.gz	84f20fb9cdf7150d70627b7892d9f9ef	05b53d6fa2cfd63a549b20b1d2af2f6e
+ago1D.37.C	ago1 null line D	37	C	ago1D.37.C_1.fq.gz	ago1D.37.C_2.fq.gz	f077da467f9fa609ca9cf55722262521	08f1ccf04b7377fa78983445e777c25d
+ago1D.40.A	ago1 null line D	40	A	ago1D.40.A_1.fq.gz	ago1D.40.A_2.fq.gz	db7fc920f0e1a514dce9c5c5e06f0e3b	977a912de2a910cf78715b67b31ebe2d
+ago1D.40.B	ago1 null line D	40	B	ago1D.40.B_1.fq.gz	ago1D.40.B_2.fq.gz	aeafc7e3c4f8c0a303d46e9ff159b27f	1c4de8cb09b49867e06f623210ac304f
+ago1D.40.C	ago1 null line D	40	C	ago1D.40.C_1.fq.gz	ago1D.40.C_2.fq.gz	45b0ffa2ff305667e803ad65fa55e7e0	9f109901daa41add01d1797718a7f2f9

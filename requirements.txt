@@ -1,0 +1,9 @@
+# Python packages for scripts/01 to 05, 07 and verify.py.
+# scikit-learn, numpy, pandas and matplotlib match the environment that
+# produced the published figure.
+scikit-learn==1.6.1
+numpy==2.0.2
+pandas==2.2.2
+matplotlib==3.10.0
+scipy==1.14.1
+biopython==1.85

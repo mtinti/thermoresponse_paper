@@ -1,0 +1,20 @@
+# MD5 of the content of each data file. For .gz files the checksum is of the
+# decompressed content, so it matches the original file on the lab share.
+a2793cb78993b81ff60c6b379156c7ee  annotation/merged_fixed_6.gtf.gz
+2c37ad4be3c11a00e500aae1ac61c25a  embeddings/embeddings_927_hyenadna-medium-450k-seqlen-hf_trypanosoma_sequences_3utr.csv.npy
+9ee8f783c3610ffc4dbaa7074fbaa066  embeddings/embeddings_927_hyenadna-medium-450k-seqlen-hf_trypanosoma_sequences_5utr.csv.npy
+2888e6f273d2cf220f83ad02ae2ba46f  embeddings/embeddings_927_hyenadna-medium-450k-seqlen-hf_trypanosoma_sequences_cds.csv.npy
+3ea08954568089f588232e66ae552ef9  gene_universe/ml_dataset_gene_ids.txt
+c71f2389323bfd4be828a5515c5391ea  proteomics/all_cellular_comparisons.csv.gz
+7fcb91b82f419bea157bf0e5a36d5893  proteomics/column_mapping.csv
+6fcf51312447f31b6d5f3631ae7dc356  proteomics/peptides_counts.txt
+4491980c8a61e7f0b8e1bd097edc3709  proteomics/protein_groups.txt.gz
+7b147fd8a29f86580613b19ffc046309  rnaseq/featurecounts_bes.tsv.gz
+4d9f54c1e5e1962364782edb5e6bb340  rnaseq/featurecounts_tb927_v68.tsv.gz
+7422760e8281eab1b69e4010156d5eac  rnaseq/GC_content_927.txt.gz
+b6a017d1437a23d1cded6bf971738a2c  rnaseq/GC_content_BES.txt.gz
+8cee081b1815667e8eec52605552c1cd  rnaseq/WT40_vs_WT34.txt
+3396eeea928007660ceaa5d6e81d346d  sequences/trypanosoma_sequences_3utr.csv.gz
+66a6388c7050e54039a0ed48992d381c  sequences/trypanosoma_sequences_5utr.csv.gz
+db03ac49c45d43458945d9f57fd53224  sequences/trypanosoma_sequences_cds.csv.gz
+f5a704f0591039b653949a6ff78c2cd7  reference/TriTrypDB-68_TbruceiTREU927_Genome.fasta.gz

@@ -1,0 +1,9 @@
+# Optional image for scripts/06_compute_embeddings.py (needs an NVIDIA GPU).
+#
+#   docker build -f docker/Dockerfile.embeddings -t thermoresponse-embeddings .
+#   docker run --rm --gpus all -v "$PWD":/work thermoresponse-embeddings make embeddings
+
+FROM pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
+RUN apt-get update && apt-get install -y --no-install-recommends make && rm -rf /var/lib/apt/lists/* \
+    && pip install --no-cache-dir transformers==4.48.3 pandas==2.2.2
+WORKDIR /work
