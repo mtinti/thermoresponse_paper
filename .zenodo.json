@@ -1,11 +1,12 @@
 {
   "title": "thermoresponse_paper: code and data to predict the heat-shock response of Trypanosoma brucei genes from their UTRs",
   "upload_type": "software",
-  "description": "<p>Code, input data and a Docker environment that reproduce the ROC analysis \"Heat Shock Prediction Up vs Down\" in the paper <em>Thermo-sensing and argonaute-dependent transcriptome remodelling in trypanosomes</em>.</p><p><em>Trypanosoma brucei</em> cells were grown at 34 °C and 40 °C and measured by DIA proteomics and RNA-seq. Genes significantly higher (Up) or lower (Down) at 40 °C were identified with limma (proteomics) and edgeR with cqn (RNA-seq). The 5′UTR and 3′UTR of each gene were encoded with the DNA language model HyenaDNA (medium-450k, mean embedding), and a random forest evaluated by 3-fold cross-validation predicted Up vs Down from the embeddings.</p><p>Contents:</p><ul><li><code>data/</code>: proteomics protein-group quantities and limma results; RNA-seq featureCounts tables, GC content and edgeR results; curated TREU927 annotation with UTRs and the TriTrypDB release 68 genome; 5′UTR, CDS and 3′UTR sequences of 6,812 genes and their HyenaDNA embeddings; gene universe. MD5 checksums are included.</li><li><code>scripts/</code>: one script per step, from the input tables to the ROC figure, and checks against the published results.</li><li><code>upstream/</code>: the DIA-NN search parameters, the MaxLFQ script, the RNA-seq alignment and counting commands, and the RNA-seq sample sheet with FASTQ checksums.</li><li><code>Dockerfile</code> and <code>Makefile</code>: <code>make all</code> recomputes every step except the GPU embedding step and checks the results. The ROC figure, its AUCs and every out-of-fold prediction are reproduced exactly.</li></ul><p>Code is licensed under MIT; the data in <code>data/</code> and <code>expected/</code> under CC BY 4.0. Raw RNA-seq reads and proteomics raw files are deposited separately (see README).</p>",
+  "description": "<p>Code, input data and a Docker environment that reproduce the ROC analysis \"Heat Shock Prediction Up vs Down\" in the paper <em>Thermo-sensing and argonaute-dependent transcriptome remodelling in trypanosomes</em>.</p><p>Bloodstream-form <em>Trypanosoma brucei</em> cells were grown at 34 °C and 40 °C and measured by DIA proteomics and RNA-seq. Genes significantly higher (Up) or lower (Down) at 40 °C were identified with limma (proteomics) and edgeR with cqn (RNA-seq). The 5′UTR and 3′UTR of each gene were encoded with the DNA language model HyenaDNA (medium-450k, mean embedding), and a random forest evaluated by 3-fold cross-validation predicted Up vs Down from the embeddings.</p><p>Contents:</p><ul><li><code>data/</code>: proteomics protein-group quantities and limma results; RNA-seq featureCounts tables, GC content and edgeR results; curated TREU927 annotation with UTRs and the TriTrypDB release 68 genome; 5′UTR, CDS and 3′UTR sequences of 6,812 genes and their HyenaDNA embeddings; gene universe. MD5 checksums are included.</li><li><code>scripts/</code>: one script per step, from the input tables to the ROC figure, and checks against the published results.</li><li><code>upstream/</code>: the DIA-NN search parameters, the MaxLFQ script, the RNA-seq alignment and counting commands, and the RNA-seq sample sheet with FASTQ checksums.</li><li><code>Dockerfile</code> and <code>Makefile</code>: <code>make all</code> recomputes every step except the GPU embedding step and checks the results. The ROC figure, its AUCs and every out-of-fold prediction are reproduced exactly.</li></ul><p>Code is licensed under MIT; the data in <code>data/</code> and <code>expected/</code> under CC BY 4.0. Raw RNA-seq reads are in NCBI SRA (BioProject PRJNA1381115) and proteomics raw files in PRIDE (PXD071951).</p>",
   "creators": [
     {
       "name": "Tinti, Michele",
-      "affiliation": "University of Dundee"
+      "affiliation": "University of Dundee",
+      "orcid": "0000-0002-0051-017X"
     }
   ],
   "license": "MIT",
@@ -28,6 +29,16 @@
       "identifier": "https://github.com/mtinti/decoding-gene-expression",
       "relation": "references",
       "resource_type": "software"
+    },
+    {
+      "identifier": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1381115",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.ebi.ac.uk/pride/archive/projects/PXD071951",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
     }
   ],
   "language": "eng"

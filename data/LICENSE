@@ -6,5 +6,6 @@ appropriate credit by citing the paper and this archive (see CITATION.cff).
 
 Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
 
-The genome in reference/ is from TriTrypDB release 68 (https://tritrypdb.org)
-and is redistributed here for reproducibility; cite TriTrypDB when using it.
+The genome and protein sequences in reference/ are from TriTrypDB releases 68
+and 51 (https://tritrypdb.org) and are redistributed here for reproducibility;
+cite TriTrypDB when using them.

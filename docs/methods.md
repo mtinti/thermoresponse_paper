@@ -6,11 +6,12 @@ the order the data flow. The script for each step is in `scripts/` or
 
 ## Samples
 
-*T. brucei* wild-type cells and two independent *ago1* null lines (A and D)
-were grown at 34, 37 and 40 °C, in biological triplicate. RNA-seq covers
-all 27 samples (`upstream/samples_rnaseq.tsv`). Proteomics covers cells
-at the three temperatures, as cell extract and culture supernatant, in
-triplicate. The figure compares 40 °C with 34 °C: the cell extract for
+Bloodstream-form *T. brucei* Lister 427 cells, wild type and two independent
+*ago1* null lines (A and D), were grown at 34, 37 and 40 °C for 6 hours, in
+biological triplicate. RNA-seq covers
+all 27 samples (NCBI SRA PRJNA1381115; runs in `upstream/samples_rnaseq.tsv`). Proteomics covers wild-type
+cells at the three temperatures, as cell extract and culture supernatant, in
+triplicate (PRIDE PXD071951). The figure compares 40 °C with 34 °C: the cell extract for
 proteomics, and the wild-type samples for RNA-seq.
 
 ## Proteomics

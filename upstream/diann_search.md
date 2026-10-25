@@ -1,16 +1,17 @@
 # DIA-NN search
 
 The proteomics quantities in `data/proteomics/` come from one DIA-NN 1.8.1
-run on 18 DIA files (cell extract and culture supernatant at 34, 37 and
-40 °C, 3 replicates each). The figure uses the 9 cell-extract files.
+run on 18 DIA raw files: cell extract and culture supernatant at 34, 37 and
+40 °C, 3 replicates each. The raw files are in PRIDE (PXD071951). The
+figure uses the 9 cell-extract files.
 
 ## Search database
 
 `TriTrypDB-51_TbruceiTREU927_AnnotatedProteins_added_BES_GFP-BLA.fasta`:
 TriTrypDB release 51 *T. brucei* TREU927 annotated proteins, plus the Tb427
 bloodstream-form expression-site proteins and the GFP-BLA marker
-(11,363 entries, MD5 `1007d6cb2905b8b0f6591490cd3f1df3`). It is deposited
-with the raw data.
+(11,363 entries). It is in
+`data/reference/TriTrypDB-51_TbruceiTREU927_AnnotatedProteins_added_BES_GFP-BLA.fasta.gz`.
 
 ## Command
 

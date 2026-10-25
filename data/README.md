@@ -35,6 +35,7 @@ Sample names, genotypes, temperatures and FASTQ checksums are in
 |---|---|
 | `annotation/merged_fixed_6.gtf.gz` | TREU927 annotation, chromosomes 1 to 11: TriTrypDB release 68 gene models (source `VEuPathDB`) and transcript models curated by hand in the Apollo genome browser (source `.`), which include the UTRs. |
 | `reference/TriTrypDB-68_TbruceiTREU927_Genome.fasta.gz` | TriTrypDB release 68 *T. brucei* TREU927 genome. |
+| `reference/TriTrypDB-51_TbruceiTREU927_AnnotatedProteins_added_BES_GFP-BLA.fasta.gz` | Protein database of the DIA-NN search: TriTrypDB release 51 TREU927 proteins, Tb427 expression-site proteins and the GFP-BLA marker. |
 
 ## sequences/
 

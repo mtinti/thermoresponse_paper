@@ -6,7 +6,7 @@
 #   filtered on Global.Q.Value <= 0.01 and PG.Q.Value <= 0.01.
 #
 # Needs the diann R package (github.com/vdemichev/diann-rpackage) and the
-# DIA-NN report.tsv deposited with the raw data. This is the code that
+# DIA-NN report.tsv from the search described in upstream/diann_search.md. This is the code that
 # produced data/proteomics/; it is documented here and not part of the
 # Docker run.
 #

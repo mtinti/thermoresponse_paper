@@ -6,6 +6,7 @@ authors:
   - family-names: Tinti
     given-names: Michele
     affiliation: University of Dundee
+    orcid: "https://orcid.org/0000-0002-0051-017X"
 repository-code: "https://github.com/mtinti/thermoresponse_paper"
 license: MIT
 keywords:

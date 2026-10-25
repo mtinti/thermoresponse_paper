@@ -6,7 +6,7 @@ trypanosomes*.
 
 The question: can the sequence of a gene's untranslated regions (UTRs)
 alone tell whether heat shock will raise or lower that gene's product?
-*Trypanosoma brucei* cells were grown at 34 °C and 40 °C
+Bloodstream-form *Trypanosoma brucei* (Lister 427) cells were grown at 34 °C and 40 °C
 and measured by proteomics and RNA-seq. Genes that went up or down
 significantly at 40 °C were collected, and a random forest was trained to
 tell the two groups apart using only a numerical description of each
@@ -146,8 +146,10 @@ Makefile     the commands run by make all
 
 | Data | Repository | Accession |
 |---|---|---|
-| RNA-seq reads (27 samples) | ArrayExpress | to be added |
-| Proteomics raw files and DIA-NN search | PRIDE | to be added |
+| RNA-seq reads (27 samples, BGISEQ paired-end) | NCBI SRA | [PRJNA1381115](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1381115) |
+| Proteomics raw files (18 DIA runs) | PRIDE | [PXD071951](https://www.ebi.ac.uk/pride/archive/projects/PXD071951) |
+
+`upstream/samples_rnaseq.tsv` gives the SRA run of each RNA-seq sample.
 
 `upstream/` describes how the files in `data/` were produced from these raw
 data.
