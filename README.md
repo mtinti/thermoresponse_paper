@@ -124,8 +124,9 @@ replicates at one temperature. They get random values near the detection
 limit. To see how much this matters, the imputation was repeated with 100
 random seeds. The logFC of these proteins varies with a median standard
 deviation of 0.17 (their median |logFC| is 2.2). At most one gene changes
-Up/Down group, and the proteomics AUCs round to the published values in at
-least 98 of 100 runs.
+Up/Down group. The proteomics AUCs printed in the figure (0.72, 0.67 and
+0.70) stay the same in 98, 100 and 98 of the 100 runs. In the other runs
+they rise by at most 0.02.
 
 By default the figure uses the published intermediate tables, which are in
 `data/`. `results/figure_rebuilt/` uses the recomputed ones. Its proteomics
