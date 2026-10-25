@@ -1,8 +1,9 @@
 # Heat-shock response of *T. brucei* genes predicted from their UTRs
 
-Code and data for the ROC analysis "Heat Shock Prediction Up vs Down" in the
-paper *Thermo-sensing and argonaute-dependent transcriptome remodelling in
-trypanosomes*.
+Code and data for the ROC analysis "Heat Shock Prediction Up vs Down" in
+Bravo Ruiz G, Tinti M, Horn D. *Thermo-sensing and argonaute-dependent
+transcriptome remodelling in trypanosomes*. bioRxiv (2026),
+[doi:10.64898/2026.01.20.700697](https://doi.org/10.64898/2026.01.20.700697).
 
 The question: can the sequence of a gene's untranslated regions (UTRs)
 alone tell whether heat shock will raise or lower that gene's product?

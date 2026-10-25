@@ -7,6 +7,7 @@ authors:
     given-names: Michele
     affiliation: University of Dundee
     orcid: "https://orcid.org/0000-0002-0051-017X"
+version: 1.0.0
 repository-code: "https://github.com/mtinti/thermoresponse_paper"
 license: MIT
 keywords:
@@ -20,3 +21,17 @@ abstract: >-
   Code, input data and a Docker environment that reproduce the ROC analysis
   "Heat Shock Prediction Up vs Down" in the paper "Thermo-sensing and
   argonaute-dependent transcriptome remodelling in trypanosomes".
+preferred-citation:
+  type: article
+  title: "Thermo-sensing and argonaute-dependent transcriptome remodelling in trypanosomes"
+  authors:
+    - family-names: Bravo Ruiz
+      given-names: G.
+    - family-names: Tinti
+      given-names: Michele
+      orcid: "https://orcid.org/0000-0002-0051-017X"
+    - family-names: Horn
+      given-names: David
+  journal: bioRxiv
+  year: 2026
+  doi: 10.64898/2026.01.20.700697

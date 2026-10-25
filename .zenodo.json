@@ -26,6 +26,12 @@
   ],
   "related_identifiers": [
     {
+      "identifier": "10.64898/2026.01.20.700697",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
       "identifier": "https://github.com/mtinti/decoding-gene-expression",
       "relation": "references",
       "resource_type": "software"
@@ -41,5 +47,6 @@
       "resource_type": "dataset"
     }
   ],
-  "language": "eng"
+  "language": "eng",
+  "version": "1.0.0"
 }
