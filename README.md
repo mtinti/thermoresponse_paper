@@ -115,9 +115,17 @@ To run a single step, replace `make all` with one of `make check-data`,
 |---|---|---|
 | Figure | AUCs and the class prediction of every gene against the published ones | identical |
 | UTR and CDS sequences | files against the published ones | identical |
-| Proteomics differential abundance | fold changes against the published table | identical for 5,945 of 5,972 proteins, including the 113 whose missing values are estimated from other proteins; the 27 proteins missing in all replicates at one temperature get random values near the detection limit, and the published draw was unseeded. Across 100 random draws their logFC varies with a median SD of 0.17, at most one gene changes Up/Down group, and the proteomics AUCs round to the published values in at least 98 of 100 draws |
+| Proteomics differential abundance | fold changes against the published table | identical for 5,945 of 5,972 proteins; the other 27 are imputed with a random draw that was unseeded in the published run (see below) |
 | RNA-seq differential expression | gene lists against the published table | 9,396 genes tested in both; 1 gene at the fold-change cutoff changes group (logFC −0.39992 vs −0.40008), because cqn uses random numbers and the published run had no seed |
 | Embeddings | not part of `make all` (needs a GPU) | two independent GPU runs differ by at most 3 × 10⁻⁶ per value |
+
+The 27 proteins with a random draw are those missing in all three
+replicates at one temperature. They get random values near the detection
+limit. To see how much this matters, the imputation was repeated with 100
+random seeds. The logFC of these proteins varies with a median standard
+deviation of 0.17 (their median |logFC| is 2.2). At most one gene changes
+Up/Down group, and the proteomics AUCs round to the published values in at
+least 98 of 100 runs.
 
 By default the figure uses the published intermediate tables, which are in
 `data/`. `results/figure_rebuilt/` uses the recomputed ones. Its proteomics
